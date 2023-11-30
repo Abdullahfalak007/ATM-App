@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,29 +15,26 @@
     <h1>WELCOME TO FALAK BANK</h1>
     <br>
     <h1 id="accountNumber-el">Account # </h1>
-    
+
     <div id="buttonsContainer">
         <button id="checkBalanceBtn">
-            <a id="enterPasswordLinkBtn"href="checkBalance.html">Check Balance</a>
+            <a id="enterPasswordLinkBtn" href="checkBalance.html">Check Balance</a>
         </button>
-        <h1 >Enter the amount you want to deposit:</h1>
-        <form id="form" onsubmit="return false;">
+        <h1>Enter the amount you want to deposit:</h1>
+        <form id="depositForm" onsubmit="return false;">
             <input class="inputFields" id="depositAmount-el" type="number" maxlength="10">
             <button type="submit" onclick="depositAmount()">Deposit</button>
         </form>
-        
+
         <button id="cashWithdrawalBtn">
-            <a id="enterPasswordLinkBtn"href="cashWithdrawal.html">Cash Withdrawal</a>
+            <a id="enterPasswordLinkBtn" href="cashWithdrawal.html">Cash Withdrawal</a>
         </button>
         <button id="backToHomeBtn">
-            <a id="enterPasswordLinkBtn"href="index.html">Home</a>
+            <a id="enterPasswordLinkBtn" href="index.html">Home</a>
         </button>
     </div>
-    
-    
 
-
-    <script src="index.js" ></script>
+    <script src="index.js"></script>
 </body>
 
 </html>
